@@ -1,0 +1,84 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#8BC34A</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MatchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="WrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MatchWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MatchWrap.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MatchWrap.Horizontal">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_margin">@dimen/standard_margin</item>
+    </style>
+
+    <style name="WrapContent.LinearLayout">
+        <item name="android:layout_marginBottom">@dimen/standard_margin</item>
+        <item name="android:layout_marginLeft">@dimen/standard_margin</item>
+        <item name="android:layout_marginRight">@dimen/standard_margin</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- style of the sandwich image from activity_detail -->
+    <style name="ImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/image_height</item>
+        <item name="android:adjustViewBounds">@bool/adjustViewBounds</item>
+        <item name="android:contentDescription">@string/sandwich_picture_content_description</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="WrapContent.TextViewLabel">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <style name="WrapContent.TextViewLabel.StandardMargin">
+        <item name="android:layout_marginRight">@dimen/standard_margin</item>
+    </style>
+
+    <!-- after parsing, the Json Strings will be displayed in the TextView having this style -->
+    <style name="WrapContent.Json">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <style name="WrapContent.Json.LargerMargin">
+        <item name="android:layout_marginLeft">@dimen/larger_margin</item>
+    </style>
+
+    <!-- style for smallest screen width 600 dp -->
+    <style name="MatchParent.SW600">
+        <item name="android:layout_marginBottom">@dimen/listView_marginBottom_activity_sw600</item>
+        <item name="android:layout_marginLeft">@dimen/listView_marginLeft_activity_sw600</item>
+        <item name="android:layout_marginRight">@dimen/listView_marginRight_activity_sw600</item>
+        <item name="android:layout_marginTop">@dimen/listView_marginTop_activity_sw600</item>
+    </style>
+
+    <!-- style for a single list view item -->
+    <style name="MatchWrap.ListItem">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@drawable/list_item_text_selector</item>
+    </style>
+</resources>

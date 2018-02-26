@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- list view divider height-->
+    <dimen name="divider_height">1dp</dimen>
+    <!-- standard size margin -->
+    <dimen name="standard_margin">10dp</dimen>
+    <!-- larger margin -->
+    <dimen name="larger_margin">20dp</dimen>
+    <!-- list view layout margins for screen width minimum 600 dp -->
+    <dimen name="listView_marginRight_activity_sw600">50dp</dimen>
+    <dimen name="listView_marginLeft_activity_sw600">50dp</dimen>
+    <dimen name="listView_marginTop_activity_sw600">25dp</dimen>
+    <dimen name="listView_marginBottom_activity_sw600">25dp</dimen>
+    <!-- image height for activity detail -->
+    <dimen name="image_height">200dp</dimen>
+    <!-- text-size -->
+    <dimen name="text_size">16sp</dimen>
+</resources>

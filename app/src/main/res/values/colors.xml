@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- app default colors-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- default color of the text of the list view -->
+    <color name="text_color_default">#616161</color>
+    <!-- inverse color of the text of the list view while clicked -->
+    <color name="text_color_inverse">#FFFFFF</color>
+    <!-- default color of the row -->
+    <color name="list_row_default">#FFEB3B</color>
+    <!-- row changes into this color while pressed -->
+    <color name="list_row_pressed">#008cef</color>
+    <!-- row changes into this color while selected-->
+    <color name="list_row_selected">#86d3f6</color>
+    <!-- list view divider color -->
+    <color name="divider">#8BC34A</color>
+    <!-- gradient start color -->
+    <color name="start_color">#FFF9C4</color>
+    <!-- gradient center color -->
+    <color name="center_color">#FFF59D</color>
+    <!-- gradient end color -->
+    <color name="end_color">#FFF176</color>
+</resources>
