@@ -4,75 +4,56 @@
     style="@style/MatchParent"
     tools:context="com.udacity.sandwichclub.DetailActivity">
 
-<!-- uses the scrim gradient as a background image for the list view -->
-    <FrameLayout
+    <!-- uses the scrim gradient as a background image for the list view -->
+    <ScrollView
         style="@style/MatchParent"
         android:background="@drawable/scrim_gradient">
 
-        <ScrollView style="@style/MatchParent">
+        <LinearLayout style="@style/MatchWrap.Vertical">
 
-            <LinearLayout style="@style/MatchWrap.Vertical">
+            <ImageView
+                android:id="@+id/image_iv"
+                android:contentDescription="@string/sandwich_picture_content_description"
+                style="@style/ImageView" />
 
-                <ImageView
-                    android:id="@+id/image_iv"
-                    style="@style/ImageView" />
+            <TextView
+                android:id="@+id/also_known_label"
+                style="@style/WrapContent.TextViewLabel"
+                android:text="@string/detail_also_known_as_label" />
 
-                <LinearLayout style="@style/MatchWrap.Horizontal">
+            <TextView
+                android:id="@+id/also_known_tv"
+                style="@style/WrapContent.Json" />
 
-                    <TextView
-                        android:id="@+id/also_known_label"
-                        style="@style/WrapContent.TextViewLabel.StandardMargin"
-                        android:text="@string/detail_also_known_as_label" />
+            <TextView
+                android:id="@+id/origin_label"
+                style="@style/WrapContent.TextViewLabel"
+                android:text="@string/detail_place_of_origin_label" />
 
-                    <TextView
-                        android:id="@+id/also_known_tv"
-                        style="@style/WrapContent.Json" />
+            <TextView
+                android:id="@+id/origin_tv"
+                style="@style/WrapContent.Json" />
 
-                </LinearLayout>
+            <TextView
+                android:id="@+id/description_label"
+                style="@style/WrapContent.TextViewLabel"
+                android:text="@string/detail_description_label" />
 
-                <LinearLayout style="@style/WrapContent.LinearLayout">
+            <TextView
+                android:id="@+id/description_tv"
+                style="@style/WrapContent.Json" />
 
-                    <TextView
-                        android:id="@+id/origin_label"
-                        style="@style/WrapContent.TextViewLabel.StandardMargin"
-                        android:text="@string/detail_place_of_origin_label" />
+            <TextView
+                android:id="@+id/ingredients_label"
+                style="@style/WrapContent.TextViewLabel"
+                android:text="@string/detail_ingredients_label" />
 
-                    <TextView
-                        android:id="@+id/origin_tv"
-                        style="@style/WrapContent.Json" />
+            <TextView
+                android:id="@+id/ingredients_tv"
+                style="@style/WrapContent.Json" />
 
-                </LinearLayout>
+        </LinearLayout>
 
-                <LinearLayout style="@style/WrapContent.LinearLayout">
-
-                    <TextView
-                        android:id="@+id/description_label"
-                        style="@style/WrapContent.TextViewLabel.StandardMargin"
-                        android:text="@string/detail_description_label" />
-
-                    <TextView
-                        android:id="@+id/description_tv"
-                        style="@style/WrapContent.Json.LargerMargin" />
-
-                </LinearLayout>
-
-                <LinearLayout style="@style/WrapContent.LinearLayout">
-
-                    <TextView
-                        android:id="@+id/ingredients_label"
-                        style="@style/WrapContent.TextViewLabel.StandardMargin"
-                        android:text="@string/detail_ingredients_label" />
-
-                    <TextView
-                        android:id="@+id/ingredients_tv"
-                        style="@style/WrapContent.Json.LargerMargin" />
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-        </ScrollView>
-
-    </FrameLayout>
+    </ScrollView>
 
 </LinearLayout>
