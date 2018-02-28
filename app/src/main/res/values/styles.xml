@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">#8BC34A</item>
+        <item name="colorPrimary">@color/divider</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
@@ -51,20 +51,16 @@
         <item name="android:fontFamily">sans-serif</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">@dimen/text_size</item>
-    </style>
-
-    <style name="WrapContent.TextViewLabel.StandardMargin">
-        <item name="android:layout_marginRight">@dimen/standard_margin</item>
+        <item name="android:layout_marginTop">@dimen/standard_margin</item>
+        <item name="android:layout_marginLeft">@dimen/standard_margin</item>
     </style>
 
     <!-- after parsing, the Json Strings will be displayed in the TextView having this style -->
     <style name="WrapContent.Json">
         <item name="android:fontFamily">sans-serif</item>
         <item name="android:textSize">@dimen/text_size</item>
-    </style>
-
-    <style name="WrapContent.Json.LargerMargin">
-        <item name="android:layout_marginLeft">@dimen/larger_margin</item>
+        <item name="android:layout_marginLeft">@dimen/standard_margin</item>
+        <item name="android:layout_marginRight">@dimen/standard_margin</item>
     </style>
 
     <!-- style for smallest screen width 600 dp -->
